@@ -1,0 +1,163 @@
+
+body {
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1000px;
+
+  background-color: #eaf4f7;
+  color: #30404a;
+
+  font-family:
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "Meiryo",
+    sans-serif;
+
+  line-height: 1.9;
+}
+
+h1 {
+  background-color: #4f91a8;
+  color: white;
+  padding: 25px;
+  margin: 0 0 25px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 0.08em;
+  box-shadow: 0 5px 12px rgba(40, 80, 100, 0.18);
+}
+
+.intro {
+  background-color: white;
+  padding: 25px 30px;
+  margin-bottom: 45px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(40, 80, 100, 0.08);
+}
+
+h3 {
+  color: #28627a;
+  background-color: white;
+  padding: 12px 20px;
+  margin: 50px 0 0;
+  border-left: 8px solid #63b3c7;
+  border-radius: 8px 15px 0 0;
+  font-size: 1.5em;
+  box-shadow: 0 3px 8px rgba(40, 80, 100, 0.08);
+}
+
+.day-content {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 3px 10px rgba(40, 80, 100, 0.06);
+}
+
+.day-content p 
+{
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 90%;
+  max-height: 500px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(40, 80, 100, 0.18);
+  object-fit: cover;
+}
+
+iframe {
+  display: block;
+  width: 90%;
+  max-width: 700px;
+  height: 400px;
+  margin: 20px auto;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(40, 80, 100, 0.15);
+}
+
+.quiz {
+  margin: 30px 0;
+  padding: 20px 25px;
+  background-color: #f4fafb;
+  border-top: 3px solid #63b3c7;
+  border-bottom: 3px solid #63b3c7;
+  border-radius: 8px;
+}
+
+.quiz h4 {
+  margin: 0 0 10px;
+  color: #28627a;
+  font-size: 1.35em;
+}
+
+.quiz-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.quiz-options button {
+  flex: 1 1 40%;
+  padding: 10px 15px;
+  background-color: white;
+  color: #28627a;
+  border: 1px solid #9bcbd5;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+}
+
+.quiz-options button:hover {
+  background-color: #e2f3f6;
+  transform: translateY(-2px);
+}
+
+#zoo-result,
+#park-result {
+  margin: 15px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.correct {
+  color: #287a65;
+}
+
+.incorrect {
+  color: #b5535e;
+}
+
+.quiz-explanation {
+  display: none;
+  margin-top: 20px !important;
+  padding: 12px 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-left: 3px solid #9bcbd5;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.quiz-explanation.show {
+  display: block;
+}
+
+.ending {
+  margin-top: 60px;
+  background-color: #28566b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(40, 80, 100, 0.15);
+}
